@@ -92,6 +92,11 @@ int main() {
 		cout << "You have " << pennies[p] << " pennies." << endl;
 	}
 
+	for (int n = 0; n < 1; n++) {
+		cout << endl;
+		cout << "You have " << nickels[n] << " nickels." << endl;
+	}
+
 	for (int d = 0; d < 1; d++) {
 		cout << endl;
 		cout << "You have " << dimes[d] << " dimes." << endl;
