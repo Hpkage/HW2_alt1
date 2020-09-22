@@ -73,6 +73,19 @@ void enterDollar(vector<string>& dollars) {
 	return;
 }
 
+bool pn(const string& penny, const vector<string>& pennies) {
+	for (int p = 0; p < 1; p++) {
+		cout << endl;
+		if (pennies[p] == penny) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	return 0;
+}
+
 int main() {
 	//takes the number of coins from the user
 	vector<string> pennies;
@@ -86,10 +99,16 @@ int main() {
 	enterQuarter(quarters);
 	enterDollar(dollars);
 	
-	
+	string penny;
 	for (int p = 0; p < 1; p++) {
 		cout << endl;
-		cout << "You have " << pennies[p] << " pennies." << endl;
+		if (pn(penny, pennies)) {
+			cout << "You have 1 penny.";
+		}
+		else {
+			cout << "You have " << pennies[p] << " pennies.";
+		}
+		cout << endl;
 	}
 
 	for (int n = 0; n < 1; n++) {
