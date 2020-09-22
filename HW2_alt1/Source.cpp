@@ -89,17 +89,18 @@ int main() {
 	
 	for (int p = 0; p < 1; p++) {
 		cout << endl;
-		cout << "You have " << pennies[p] << " pennies.";
-		cout << endl;
+		cout << "You have " << pennies[p] << " pennies." << endl;
 	}
 
 	for (int d = 0; d < 1; d++) {
 		cout << endl;
-		cout << "You have " << dimes[d] << " dimes.";
-		cout << endl;
+		cout << "You have " << dimes[d] << " dimes." << endl;
 	}
 
-
+	for (int q = 0; q < 1; q++) {
+		cout << endl;
+		cout << "You have " << quarters[q] << " quarters." << endl;
+	}
 
 	return 0;
 }
