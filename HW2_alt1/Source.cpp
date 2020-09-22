@@ -93,6 +93,12 @@ int main() {
 		cout << endl;
 	}
 
+	for (int d = 0; d < 1; d++) {
+		cout << endl;
+		cout << "You have " << dimes[d] << " dimes.";
+		cout << endl;
+	}
+
 
 
 	return 0;
