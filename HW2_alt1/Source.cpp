@@ -107,5 +107,10 @@ int main() {
 		cout << "You have " << quarters[q] << " quarters." << endl;
 	}
 
+	for (int dol = 0; dol < 1; dol++) {
+		cout << endl;
+		cout << "You have " << dollars[dol] << " dollar coins." << endl;
+	}
+
 	return 0;
 }
